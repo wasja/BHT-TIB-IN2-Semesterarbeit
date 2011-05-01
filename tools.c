@@ -85,7 +85,7 @@ int getText(char *Aufforderung, int Laenge, int emptyString, char **Eingabe)
     return 0;
 }
 
-void getNumber(char *Aufforderung, int **Eingabe, int von, int bis)
+void getNumber(char *Aufforderung, int *Eingabe, int von, int bis)
 {
     int number = 0;
     int pruefen = 0;
@@ -96,8 +96,7 @@ void getNumber(char *Aufforderung, int **Eingabe, int von, int bis)
         *Eingabe = number;
         clearBuffer();
 
-
-    }while(!pruefen &&( number >= von && number <= bis));
+    }while(!pruefen || !( number >= von && number <= bis));
 }
 
 void getTime(char *Aufforderung, int **Eingabe)
