@@ -3,7 +3,7 @@
 
     /******************************************************************************************************
     *  clearBuffer
-    *  Löscht noch vorhandene Zeichen im Tastaturspeicher.
+    *  Lï¿½scht noch vorhandene Zeichen im Tastaturspeicher.
     *  Parameter: keine
     *  Ergebnis : keins
     ******************************************************************************************************/
@@ -11,7 +11,7 @@
 
     /******************************************************************************************************
     *  waitForEnter
-    *  Fordert den Benutzer auf die Eingabetaste zudrücken und wartet auf die Eingabetaste.
+    *  Fordert den Benutzer auf die Eingabetaste zudrï¿½cken und wartet auf die Eingabetaste.
     *  Parameter: keine
     *  Ergebnis : keins
     ******************************************************************************************************/
@@ -40,6 +40,6 @@
     *  Parameter:
     *  Ergebnis :
     ******************************************************************************************************/
-    void getNumber(char *Aufforderung, int **Eingabe, int von, int bis);
+    void getNumber(char *Aufforderung, int *Eingabe, int von, int bis);
 
 #endif // TOOLS_H_INCLUDED
